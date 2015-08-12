@@ -133,7 +133,7 @@
       var selectedItem = event.currentTarget;
       var selectedId = selectedItem.dataset.ideaid;
 
-      var evt = $A.get("e.jmb:OpenIdea");
+      var evt = $A.get("e.gthakur:OpenIdea");
        evt.setParams({
         "currentIdeaId": selectedId
        });
